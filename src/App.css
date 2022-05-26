@@ -1,6 +1,23 @@
 .App {
   text-align: center;
+  padding-left:12px;
+  padding-right: 12px;
 }
+.pokemonImg{
+  max-width: 250px;
+  max-height: 250px;
+}
+.name{
+  font-family: 'Montserrat', sans-serif;
+}
+.stat{
+  /* background-color:#9707f8; */
+  border-radius: 12%;
+  padding: 8px;
+  padding-right:  16px;
+  padding-left: 16px;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -14,14 +31,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
